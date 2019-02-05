@@ -1,4 +1,7 @@
 <!-- Create your form here -->
 <% form_tag students_path do %>
-  <% = text_field_tag :''
+  <label>First Name:</label>
+  <% text_field_tag :'first_name' %>
+  <label>Last Name:</label>
+  <% text_field_tag :'last_name' %>
 <% end>
